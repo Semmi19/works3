@@ -1,7 +1,7 @@
   body{ padding:0px;
        margin:0px;  }
   a { text-decoration:none;}
-	                                                              /* часть первая  ( начало)    */
+	                                                        /* часть первая  ( начало)    */
 header{
 		 width:100%;
 		 height:1346px;   
@@ -19,7 +19,7 @@ header{
               top:68px; 
               left: 50%;}
     .header_minu_videlen{ background:#643a79; border-radius:5px;}
-     .header_opisanie{font-size:42px; margin-top:90px; color:#f7f3ea;} 
+     .header_opisanie{font-size:2em; margin-top:90px; color:#f7f3ea;} 
       button.knopka{ 
                    width:24%;
 			       font-size:18px;
@@ -91,9 +91,10 @@ header{
 															   color:#30bae7; 
 															   margin-left:50px;  
 															   text-decoration: none;}
-						   .zagolovki_blokov{
+						   .zagolovki_blokov{  
 											   margin:30px 0px 12px 0px;  
 											   color:#3c4761;}
+											   
 							.zagolovok_bloka_2{ margin:30px 0px 12px 30px;color:#3c4761;} 
 							 .zagolovok_bloka_3{ margin:30px 0px 12px 10px;color:#3c4761;} 
 							  .opisanie_1_bloka,.opisanie_2_bloka,.opisanie_3_bloka,.opisanie_4_bloka{ color:#535e75; font-size:1em;}
@@ -149,10 +150,10 @@ header{
 																	   justify-content:center;
 																	   margin-top:80px; }
                                              button.knopka_2{  
-                                                            width:24%;
-			                                                font-size:1.012em;
+                                                            width:20%;
+			                                                font-size:1em;
 															 color:#ffffff;
-															 height:70px;  
+															 height:60px;  
 															 background:#17c2a4;
 															 border-color:#17c2a4; 
 															 border-radius:5px;	
@@ -232,7 +233,12 @@ header{
 											border-color:#273a71; 
 											border-style: solid;
 											border-radius:5px;}
-				   
+				    .blok_7_input_3 input  :-moz-placeholder{
+    width: 56%;}
+	
+	.blok_7_2_input :-moz-placeholder{
+    margin: 15px 0px 0px 10px;
+}
 				     .blok_7_input_1 input::-webkit-input-placeholder{  
 																		 padding:20px 0px 0px 20px;      															  
 																		 color:#ffffff;
@@ -353,7 +359,7 @@ header{
 											padding:0px 15px 0px 15px;}
 			                                                            /* часть седьмая ( конец )*/
 			
-                                                                /* @@@@@@@    часть первая ( начало )    @@@@@@@@*/
+                                                                                                                     /* @@@@@@@    часть первая ( начало )    @@@@@@@@*/
  
   @media screen and (max-width:1200px){	         /* блок 5 ( начало ) */				 
   .blok_5_img{  height: auto;
@@ -382,12 +388,21 @@ header{
 		      .blok_6_section_4{flex:4; order:4; }
 		       .blok_6_section_2{ margin: 145px 70px 0px 0px;}
 								              /* блок 6 ( конец ) */
+											  
+											 	  
+									.img_koloonka_1,.img_koloonka_2,.img_koloonka_3,.img_koloonka_4{ }		  
+											  
+											  
+											  
+											  
+											  
+											  
 												  }
- 
+             /* @media screen and (max-width:1200px){	 }*/ 
   @media screen and (max-width:900px){ 
                 header{
-					   height:800px;   
-					   background:Linear-gradient(to top, #17c2a4 500px, #87509c 300px); }
+					   height:1200px;   
+					   background:Linear-gradient(to top, #17c2a4 900px, #87509c 300px); }
 			  h2.zagolovoc_header{ margin-top:70px;}
 				 .header_minu{ font-size:10px;}
 				  .header_logotip img{
@@ -399,7 +414,7 @@ header{
 										border-radius:4px;} 
 				    .header_minu_nazvanie{  padding:6px 13px 6px 13px; }
 				     .header_opisanie{
-										 font-size:22px; 
+										 font-size:1.1em; 
 										 margin-top:60px;}
 			    button.knopka{
 							  width:18%;
@@ -412,37 +427,129 @@ header{
 										   margin-top:265px; 
 										   color:#ffffff;}
 				        .img_vriad_opisanie,.img_vriad_opisanie_2{
-																	font-size:0.8em;
+																	font-size:1em;
 																	margin-top:px;}
 				         .img_vriad_zagolovok,.img_vriad_zagolovok_2, .img_vriad_zagolovok_3,.img_vriad_zagolovok_4{
+						                                                                                            margin-top: 10%;
 																													font-size:1em; 
 																													text-align: center;}
-				          .img_koloonka_1, .img_koloonka_2{ 
-															 display:block-flex; 
-															 justify-content:space-around;} 
-									    
+				         .img_koloonka_3, .img_koloonka_4 {margin-top: 30%;}
+				           .img_vriad {
+										display: grid;
+										grid-template-columns: 300px 300px;} 
+							.img_vriad_3 {
+											position: relative;
+											left: 25%;}
+							 .img_vriad_4 {
+											position: relative;
+											left: 35%;}
+							.img_vriad_1,.img_vriad_2 {
+											position: relative;
+											left: 39%;}			
 								                      /* часть вторая ( начало )*/
 						    .aplicacii{ 
 										display: grid;  
 										grid-template-columns: 250px 210px;  } 
 							  .bloc_1, .bloc_2{ flex:1; order:1;}
 							   .bloc_3, .bloc_4{flex:2; order:2; } 
-								.blok_3{ height:1250px;}	
-								 .opisanie_1_bloka,.opisanie_3_bloka{margin-right:50px; }	 		
+							   
+							   
+							   
+							   
+							   
+							   
+							   
+							   
+							   
+								.blok_3{ height:auto;}	
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								 .opisanie_1_bloka,.opisanie_3_bloka{margin-right:px; }	 														/**/
 								  .bloc_3,.bloc_4{ margin-top:50px;}
+								   .blok_2_4, .blok_4_4 {margin-left: 40px; margin-top: 50px;}
+								    .blok_4_4 {margin-left: 50px;}
 												    /* часть вторая ( конец )*/
 								                   /* часть третья ( начало )*/
-								   .blok_4{ height:850px;}
+								   .blok_4{ min-height: 1250px;}
 								    .blok_4_aplicacii{ 
 														 display: grid;  
-														 grid-template-columns: 250px 210px;}
+														 grid-template-columns: 200px;}
 									  .blok_1_4,.blok_2_4{ flex:1; order:1;}
 									   .blok_3_4,.blok_4_4{flex:2; order:2; }
 									    .blok_1_4,.blok_3_4{ margin-left:40px;}
-									     .blok_3_4,.blok_4_4{ margin-top:60px;} 
+									     .blok_3_4,.blok_4_4{ margin-top:60px;}
+									  	 
 								                  /* часть третья ( конец )*/
 									  }
-			                                      
+			                                
+
+
+
+
+
+
+
+
+
+
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											
 	@media only screen and (max-width:768px){  
 	                                          /*    блок 7 начало*/	
 
@@ -466,8 +573,8 @@ header{
 	
 	                                                                                       /*    блок 1,2. начало*/
 header {
-		 height: 1050px;
-	 	 background: Linear-gradient(to top, #17c2a4 749px, #87509c 600px);}
+		 height: 1100px;
+	 	 background: Linear-gradient(to top, #17c2a4 799px, #87509c 650px);} 
                                                                                          /*    блок 1,2. конец*/ 
 										                                                /*    блок 3 начало*/
  .zagolovoc { 		
@@ -531,16 +638,20 @@ header {
                                        margin-bottom: 10%;}
                                                                                       /*    блок 7 конец*/  
 																					  /*  footer  */	
-		                 .footer_links {font-size: 1em;}  
+		                 .footer_links {
+											font-size: 1em;
+											display: grid;
+											grid-template-columns: 20% 20% 20% 20%;}   
                           .footer_links_v_row { padding: 0px 5px 0px 5px;}												
                                                                              		/*  footer */
 															 }
 															 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:480px){                                   																   /*  ( min-width:360px)*/
 	                                                                                           /*    блок 1.2. начало*/	
 					button.knopka {
-								   width: 15%;
-								   font-size: 0.5em; } 
+									width: 15%;
+									font-size: 0.450em;
+									height: 30px; } 
 					     h2.zagolovoc_header { margin-top: 5%;}
 							 .img_koloonka_1{
 							                 flex:1; 
@@ -550,34 +661,76 @@ header {
 												 flex:2; 
 												 order:2;
 												 display:inline-block; } 
-							   .img_koloonka_3{ 
+							   .img_koloonka_3{  
+             							         margin-top: 10%;
 												 flex:3; 
 												 order:3;}
 							     .img_koloonka_4{
+								                 margin-top: 10%;
 												 flex:4; 
 												 order:4;}
 								    header {
-											  height: 1000px;
+											  height: 1550px;
 											  width: 100%;
 											  min-height: 500px;
-											  background: Linear-gradient(to top, #17c2a4 730px, #87509c 400px);
-}									
-												                                              /*    блок  1.2.конец*/ 
+											  background: Linear-gradient(to top, #17c2a4 1300px, #87509c 510px);}
+								  .img_vriad{
+											display: grid;
+											grid-template-columns: 300px;
+											margin-top: 5px;}
+                                                                                /*    блок  1.2.конец*/ 
 																							  /*    блок 3 начало*/	
  
 .zagolovoc {
              font-size: 1.6em;
 			 padding-top: 10%;}	
- .zagolovki_blokov ,.zagolovok_bloka_2 ,.zagolovok_bloka_3 {
+ .zagolovki_blokov,.zagolovok_bloka_2,.zagolovok_bloka_3{
                                                              font-size: 1.1em;
 															 margin: 30px 0px 12px 28px; }	
    .zagolovok_bloka_2{ margin: 30px 0px 12px 45px;}				
-    .opisanie_1_bloka, .opisanie_2_bloka, .opisanie_3_bloka, .opisanie_4_bloka { font-size: 1.1em;}                                                                                        /*    блок 3 конец*/
+    .opisanie_1_bloka, .opisanie_2_bloka, .opisanie_3_bloka, .opisanie_4_bloka { font-size: 0.8em;} 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+								 .bloc_2{    margin-right: 23%;}
+								  .blok_3 {min-height: 950px;} 
+								  .bloc_1,.bloc_3 {    margin-left: 15%;}
+								  .zagolovki_blokov{margin: 30px 0px 12px 10px;}
+                                   .zagolovok_bloka_2 {margin: 30px 0px 12px 20px;}
+								    .zagolovok_bloka_3 {margin: 30px 0px 12px 40px;}
+									.links_2	{    margin-left: 25px;}
+									  .links_soc_seti_1_4,.links_4 {margin-left: 25px;}
+									 .logo_4h_blokov {margin-left: 15%;}
+									
+									   
+									   
+										
+										  .opisanie_4_bloka {margin-right: 25%;}
+										   
+
+
+
+
+
+
+
+
+
+                                                                    /*    блок 3 конец*/
 																		                   /*    блок 4 начало*/
      .blok_6_heading,.blok_4_heading {
 									 font-size: 1.6em;
 									 padding: 10% 0px 0px 0px;}
-									 hr {width: 13%;}																				 
+									 hr {width: 13%;}	
+	 .logo_4h_blokov{ height: 110px; margin-left: 20%;}								 
                                                                                             /*    блок 4 конец*/
                                                                                            /*    блок 5 начало*/	
       .blok_5_heading {
@@ -596,15 +749,16 @@ header {
                                                                                         /*    блок 6 начало*/
 			.description_blok_6_1, .description_blok_6_2, .description_blok_6_3, .description_blok_6_4 {
 																										  margin: 11px 0px 0px 250px;
-																										  font-size: 1em;}
+																										  font-size: 0.8em;}
 			 .blok_6_sections,.blok_6_section_2,.blok_6_section_3,.blok_6_section_4{
 																					margin: 8% 0px 0px 0px;}
-			  .blok_6_section_1 img, .blok_6_section_2 img, .blok_6_section_3 img, .blok_6_section_4 img { margin: 0px 0px 0px 20%;}	
+			  .blok_6_section_1 img, .blok_6_section_2 img, .blok_6_section_3 img, .blok_6_section_4 img {    margin: 0px 0px 0px 27%; height: 70px;}	
 			   .blok_6_section_1 h3, .blok_6_section_2 h3, .blok_6_section_3 h3, .blok_6_section_4 h3 { 
 			                                                                                           margin: 2% 0px 0px 42%; 
 																									   font-size: 1em;}
                 .blok_6_section_1 a, .blok_6_section_2 a, .blok_6_section_3 a, .blok_6_section_4 a { margin: 0px 0px 0px 42%; }
-                                                                                       /*    блок 6 конец*/
+                 .blok_6_heading, .blok_4_heading {font-size: 1.1em; }     
+																					 /*    блок 6 конец*/
                                                                                       /*    блок 7 начало*/	
 			     .blok_7_heading { 
 									 font-size: 1.6em;
@@ -626,21 +780,21 @@ header {
 						  .blok_7_input_3 div {
 												position: relative;
 												top:30px;
-												right:35%;}
+												right:30%;}
 						   .cnopca_po_center_3 { margin-top: 30px;}
 				      button.knopka_3 {
 										width: 23%;
-										font-size: 0.8em;
+										font-size: 0.7em;
 										height: 40px;
-										margin-bottom: 50px;}
+										margin-bottom: 50px;}}
 	                                                                                /*    блок 7 конец*/ 
    @media screen and (max-width:360px){
                                                                                    /*    блок 1 начало*/  
 header{   
-      height: 750px;
+      height: 1050px;
 	  width:100%;
 	  min-height:300px;   
-	  background:Linear-gradient(to top, #17c2a4 550px, #87509c 10px); }
+	  background:Linear-gradient(to top, #17c2a4 850px, #87509c 10px); }
  h2.zagolovoc_header{ margin-top:38px;} 
     .header_minu{
 	            font-size:0.5em;
@@ -656,7 +810,7 @@ header{
 						  border-radius:2px;} 
 	  .header_minu_nazvanie{   padding:3px 9px 3px 9px; } 
 	   .header_opisanie{ 
-						   font-size:0.8em; 
+						   font-size:0.7em; 
 						   margin-top:30px;} 
   button.knopka{ 
 				 width:17%; 
@@ -670,19 +824,24 @@ header{
 				            font-size:0.8em; }	
 		  .img_vriad_zagolovok, .img_vriad_zagolovok_2, .img_vriad_zagolovok_3, .img_vriad_zagolovok_4 { font-size: 0.8em;} 
 			.img_vriad_1,.img_vriad_2,.img_vriad_3,.img_vriad_4{	width:80px; height:60px }
-			 .img_vriad_1,.img_vriad_3{ margin:40px 0px 0px 50px;}
-			  .img_vriad_2,.img_vriad_4{ margin:40px 0px 0px -50px;}
+										 .img_vriad_1{ margin:20px 0px 0px 20px;} 
+										 .img_vriad_3{ margin:20px 0px 0px 50px;}
+										  .img_vriad_2{ margin:20px 0px 0px 10px;}
+										  .img_vriad_4{ margin:20px 0px 0px 30px;}
 			   .img_vriad_razmer{height:30px; width:70px; } 
 			    .img_vriad{margin-top:5px; }
 			     .img_vriad_opisanie,.img_vriad_opisanie_2,.img_vriad_opisanie_3,.img_vriad_opisanie_4{ font-size:0.6em;}
 			      .img_vriad_opisanie, .img_vriad_zagolovok{margin:10px 0px 0px 30px; }
-				   .img_vriad_opisanie_2, .img_vriad_zagolovok_2{margin:10px 50px 0px 0px; }
+				   .img_vriad_opisanie_2, .img_vriad_zagolovok_2{margin:10px 0px 0px 30px; }
 				    .img_vriad_opisanie_3, .img_vriad_zagolovok_3{margin:10px 0px 0px 40px; }
-				     .img_vriad_opisanie_4, .img_vriad_zagolovok_4{margin:10px 50px 0px 0px; }
+				     .img_vriad_opisanie_4, .img_vriad_zagolovok_4{margin:10px 0px 0px 40px; }
 	                  hr { width: 68px;}
 																			   /*    блок 2 конец*/
 																			   /*    блок 3 начало*/	
 /* 1 */	
+.bloc_1, .bloc_2, .bloc_3, .bloc_4 {
+    margin-left:0%;
+}
 .zagolovoc {
 			font-size: 1.06em;                  
 			padding-top: 50px;}  
@@ -696,26 +855,37 @@ header{
     .zagolovki_blokov {
 						margin: 30px 0px 12px 20px;
 						font-size: 1.1em;}									  
-     .links_1 {margin-left: 40px;
+     .links_1 {margin-left: 50px;
               font-size: 0.8em;}
       .opisanie_1_bloka {
 						font-size: 0.8em;
 						margin-left: 35px;
-						width: 10em;}																	  
-       .logo_4h_blokov	{ margin-top: 30px;}
+						width: 12em;}																	  
+       .logo_4h_blokov	{ margin-top: 30px;      margin-left: 30%;   height: 100px;}
 /* 2 */
 		.zagolovok_bloka_2 {font-size: 1.1em;margin-left: 42px;}										
 		 .links_2 {font-size: 0.8em;margin-left: 55px;}
-		  .opisanie_2_bloka{font-size: 0.8em;margin-left: 25px; }	
-		   .links_soc_seti_1_4 {margin-left: 40px;}	
+		  .opisanie_2_bloka{font-size: 0.8em;margin-left: 25px;     width: 100%; }	
+		   .links_soc_seti_1_4 {margin-left: 50px;}	
 /* 3 */	
 		    .zagolovok_bloka_3 {font-size: 1.1em;margin-left: 35px;}										
-			 .links_3 {font-size: 0.8em;margin-left: 65px;}
+			 .links_3 {font-size: 0.8em;margin-left: 80px;}
 			  .opisanie_3_bloka{font-size: 0.8em;margin-left: 45px; }	
-			   .links_soc_seti{margin-left: 30px;}
+			   .links_soc_seti{margin-left: 50px;}
+			    .zagolovki_blokov {
+									margin: 5% 0px 4% 27%;
+									font-size: 0.8em;}
+				 .zagolovok_bloka_2,.zagolovok_bloka_3{     margin-left: 25%;}
+				
+
+.blok_3 {
+   
+    min-height: 1600px;
+    background: #e7f1f8;
+}
 /* 4 */	
-				.links_4 {font-size: 0.8em;margin-left: 55px;}
-				 .opisanie_4_bloka{font-size: 0.8em;margin-left: 45px; }																			  
+				.links_4 {font-size: 0.8em;margin-left: 70px;}
+				 .opisanie_4_bloka{font-size: 0.8em;margin-left: 45px;     width: 70%;}																			  
 																								  /*    блок 3 конец*/ 
 																						         /*    блок 4,5 начало*/	
 				
@@ -741,15 +911,19 @@ header{
                             .blok_6_section_1 img, .blok_6_section_2 img, .blok_6_section_3 img, .blok_6_section_4 img {
                                                                                                                           margin: 0px 0px 0px 245px;   
 																														  float: none;}
-			                 .blok_6_section_1 h3, .blok_6_section_2 h3, .blok_6_section_3 h3, .blok_6_section_4 h3 {font-size: 0.8em; margin: 0.5em 0px 0px 42%;  }
                               .blok_6_sections,.blok_6_section_3,.blok_6_section_4 {margin: 10% 0px 0px 0px;}		
                                .blok_6_section_2 {margin: 10% 70px 0px 0px;}
-																						   /*    блок 6 конец*/ 
+							    .blok_6_section_1 a,.blok_6_section_3 a,.blok_6_section_4 a{     margin: 0px 0px 0px 39%;}
+								.blok_6_section_1 h3, .blok_6_section_3 h3, .blok_6_section_4 h3{font-size: 0.8em; margin: 0.5em 0px 0px 39%;  }
+								.blok_6_section_2 h3{font-size: 0.8em;  margin: 0.5em 0px 0px 45%;}
+								.blok_6_section_2 a{     margin: 0px 0px 0px 45%;}
+								
+																							/*   блок 6 конец*/ 
 			                                                                              /*    блок 7 начало*/			  
 								.blok_7_heading { 
 												 padding: 50px 0px 0px 0px;
-												 font-size: 1.5em;}
-								 .blok_7_opisanie {font-size: 0.9em;}
+												 font-size: 1.3em;}
+								 .blok_7_opisanie {font-size: 0.75em;}
 								  .blok_7_2_input input{ 
 														 width:88.5%; 
 														 height:104px; 
@@ -787,6 +961,51 @@ header{
 											  .footer_links {
 															   display: grid;
 															   grid-template-columns: 20% 20% 20% 20%;}
+															   
+															
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+											   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
+															   
 																											 } 						                                                                                      
 
  
